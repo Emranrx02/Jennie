@@ -1,3 +1,4 @@
+import { bebas } from "@/app/layout";
 import Image from "next/image";
 
 export default function Header() {
@@ -10,9 +11,13 @@ export default function Header() {
         height={1080}
         alt="header hero"
       />
-      <div className="absolute z-20 top-0 flex justify-center items-end h-full w-full">
+      <div
+        className={
+          "absolute z-20 top-0 flex justify-center items-end h-full w-full"
+        }
+      >
         <h1 className="headerText  uppercase px-2  mb-24  sm:px-5 font-bold text-[#FFDF2C] text-5xl sm:text-7xl lg:text-9xl">
-          <span className="font-sans">$</span>jennie
+          <span className={bebas.className}>$jennie</span>
         </h1>
       </div>
     </main>

@@ -24,7 +24,7 @@ export default function Header2() {
           </Link>
           <Link
             target="_blank"
-            href={"https://t.me/Konkochannel"}
+            href={"https://t.me/JennieOnSol"}
             className="w-20 h-20 rotate-3 hover:scale-110 cursor-pointer bg-black text-white flex items-center justify-center"
           >
             <FaTelegramPlane size={45} />
@@ -33,7 +33,7 @@ export default function Header2() {
         <Link
           target="_blank"
           href={
-            "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
+            "https://raydium.io/swap/?inputCurrency=8YRco4fSjtijHVw8rpW7bGG5RqVw4eQGTW4xHYT6bMcB&outputCurrency=sol&inputAmount=0&fixed=in"
           }
           className="bg-[#FFDF2C]  hover:scale-110  uppercase px-3 py-2 text-xl md:text-6xl text-white rotate-6 border-[4px] border-white"
         >
@@ -43,7 +43,7 @@ export default function Header2() {
         <Link
           target="_blank"
           href={
-            "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
+            "https://birdeye.so/token/8YRco4fSjtijHVw8rpW7bGG5RqVw4eQGTW4xHYT6bMcB?chain=solana"
           }
           className=" text-white md:text-6xl   text-2xl bg-[#FFDF2C] border-4 rounded-0 animate-pulse border-white rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
         >
