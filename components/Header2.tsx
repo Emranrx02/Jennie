@@ -45,7 +45,7 @@ export default function Header2() {
           href={
             "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
           }
-          className=" text-white md:text-5xl   text-2xl bg-[#FFDF2C] border-4 rounded-0 animate-pulse border-white rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+          className=" text-white md:text-6xl   text-2xl bg-[#FFDF2C] border-4 rounded-0 animate-pulse border-white rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
         >
           Chart
         </Link>
