@@ -13,7 +13,7 @@ export default function Header2() {
         height={1080}
         alt="header hero"
       />
-      <div className="absolute flex space-y-9 flex-col  mt-48 items-end pr-[12%]   w-full top-0 z-20 bg-transparent">
+      <div className="absolute flex space-y-9 flex-col  mt-48 items-end pr-[5%] md:pr-[12%]   w-full top-0 z-20 bg-transparent">
         <div className="flex   mt-2 gap-4">
           <Link
             target="_blank"
