@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header2() {
   return (
-    <main className="h-[50vh] relative">
+    <main className="h-[100vh] relative">
       <Image
         className="w-full z-10 object-cover  h-full "
         src="/Header2.jpg"
