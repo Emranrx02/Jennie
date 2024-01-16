@@ -16,7 +16,7 @@ export default function SecondPage() {
           href={
             "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
           }
-          className="bg-red-600 order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
+          className="bg-yellow-600 order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
         >
           Buy konko
         </Link>
@@ -53,7 +53,7 @@ export default function SecondPage() {
           href={
             "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
           }
-          className=" text-white md:text-3xl text-2xl bg-red-600 border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+          className=" text-white md:text-3xl text-2xl bg-yellow-600 border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
         >
           Chart
         </Link>
