@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <main className="w-full h-full relative  text-center ">
+    <main className="w-full min-h-[100vh] h-full relative  text-center ">
       <Image
-        className="w-full relative -z-10 object-cover min-h-[200px] h-[100%] "
+        className="w-full relative -z-10  min-h-[100vh] h-[100%] "
         src="/Header3.jpg"
         width={1920}
         height={1080}
