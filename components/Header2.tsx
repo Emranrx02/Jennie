@@ -40,6 +40,7 @@ export default function Header2() {
           Buy <span className="font-sans font-bold">$</span>Jennie
         </Link>
 
+
         <Link
           target="_blank"
           href={
