@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Header2() {
   return (
-    <main className="h-[100vh] relative">
+    <main className="min-h-[70vh] relative">
       <Image
-        className="w-full z-10 object-cover  h-full "
+        className="w-full z-10 object-cover min-h-[70vh]  h-full "
         src="/Header2.jpg"
         width={1920}
         height={1080}
