@@ -3,25 +3,25 @@ import Link from "next/link";
 
 export default function Header2() {
   return (
-    <main className="min-h-[70vh] relative">
+    <main className="h-[100vh] relative">
       <Image
-        className="w-full z-10 object-cover min-h-[70vh]  h-full "
-        src="/Header2.jpg"
+        className="w-full z-10 object-cover min-h-[70vh] max-h-[100vh] h-full "
+        src="/Header4.jpg"
         width={1920}
         height={1080}
         alt="header hero"
       />
-      <div className="absolute flex flex-col h-full justify-end pb-16 items-center w-full top-0 z-20 bg-transparent">
+      <div className="absolute flex space-y-6 flex-col  mt-36 items-end pr-[12%]   w-full top-0 z-20 bg-transparent">
         <Link
           target="_blank"
           href={
             "https://raydium.io/swap/?inputCurrency=sol&outputCurrency=EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g&inputAmount=0.2&fixed=in"
           }
-          className="bg-red-600 order-2 hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
+          className="bg-red-600  hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-black"
         >
           Buy konko
         </Link>
-        <div className="flex order-1 mt-2 gap-4">
+        <div className="flex   mt-2 gap-4">
           <Link
             target="_blank"
             href={"http://twitter.com/konko_sol"}
@@ -54,7 +54,7 @@ export default function Header2() {
           href={
             "https://birdeye.so/token/EnH4JEqqzD9gYHkAkBDBy8Tjx9YHhfXHuYQeYjZi1v8g?chain=solana"
           }
-          className=" text-white md:text-3xl text-2xl bg-red-600 border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+          className=" text-white md:text-3xl  text-2xl bg-red-600 border-4 rounded-0 animate-pulse border-black rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
         >
           Chart
         </Link>
