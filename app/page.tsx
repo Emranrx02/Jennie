@@ -8,7 +8,6 @@ export default function Home() {
     <main className="">
       <Header />
       <Header2 />
-      <SecondPage />
     </main>
   );
 }
