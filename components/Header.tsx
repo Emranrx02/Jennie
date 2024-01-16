@@ -20,7 +20,7 @@ export default function Header() {
           "absolute z-20 top-0 flex justify-center items-end h-full w-full"
         }
       >
-        <h1 className="headerText  uppercase px-2  mb-32  sm:px-5 font-bold text-[#FFDF2C] text-8xl sm:text-9xl lg:text-[9.5rem]">
+        <h1 className="headerText  uppercase px-2  mb-28  sm:px-5 font-bold text-[#FFDF2C] text-8xl sm:text-9xl lg:text-[9.5rem]">
           <span className={bebas.className}>$jennie</span>
         </h1>
       </div>

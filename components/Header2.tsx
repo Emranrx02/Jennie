@@ -14,7 +14,7 @@ export default function Header2() {
         alt="header hero"
       />
       <div className="absolute flex space-y-5 flex-col  mt-28 items-end pr-[5%] md:pr-[12%]   w-full top-0 z-20 bg-transparent">
-        <div className="flex mb-20  mt-2 gap-4">
+        <div className="flex mb-10  mt-2 gap-4">
           <Link
             target="_blank"
             href={"http://twitter.com/konko_sol"}
