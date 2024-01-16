@@ -1,5 +1,9 @@
-import { bebas } from "@/app/layout";
 import Image from "next/image";
+import { ADLaM_Display } from "next/font/google";
+const bebas = ADLaM_Display({
+  weight: ["400"],
+  subsets: ["latin"],
+});
 
 export default function Header() {
   return (

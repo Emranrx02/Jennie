@@ -1,6 +1,5 @@
-import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { ADLaM_Display } from "next/font/google";
+
 import "./globals.css";
 
 const maladroit = localFont({
@@ -16,11 +15,6 @@ const maladroit = localFont({
       style: "normal",
     },
   ],
-});
-
-export const bebas = ADLaM_Display({
-  weight: ["400"],
-  subsets: ["latin"],
 });
 
 export default function RootLayout({
