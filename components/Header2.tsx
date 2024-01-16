@@ -13,8 +13,8 @@ export default function Header2() {
         height={1080}
         alt="header hero"
       />
-      <div className="absolute flex space-y-9 flex-col  mt-48 items-end pr-[5%] md:pr-[12%]   w-full top-0 z-20 bg-transparent">
-        <div className="flex   mt-2 gap-4">
+      <div className="absolute flex space-y-5 flex-col  mt-28 items-end pr-[5%] md:pr-[12%]   w-full top-0 z-20 bg-transparent">
+        <div className="flex mb-20  mt-2 gap-4">
           <Link
             target="_blank"
             href={"http://twitter.com/konko_sol"}
@@ -35,18 +35,17 @@ export default function Header2() {
           href={
             "https://raydium.io/swap/?inputCurrency=8YRco4fSjtijHVw8rpW7bGG5RqVw4eQGTW4xHYT6bMcB&outputCurrency=sol&inputAmount=0&fixed=in"
           }
-          className="bg-[#FFDF2C]  hover:scale-110  uppercase px-3 py-2 text-xl md:text-6xl text-white rotate-6 border-[4px] border-white"
+          className="bg-[#FFDF2C]  hover:scale-110  uppercase px-3 py-2 text-xl md:text-4xl text-white rotate-6 border-[4px] border-white"
         >
           Buy <span className="font-sans font-bold">$</span>Jennie
         </Link>
-
 
         <Link
           target="_blank"
           href={
             "https://birdeye.so/token/8YRco4fSjtijHVw8rpW7bGG5RqVw4eQGTW4xHYT6bMcB?chain=solana"
           }
-          className=" text-white md:text-6xl   text-2xl bg-[#FFDF2C] border-4 rounded-0 animate-pulse border-white rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
+          className="text-white md:text-5xl   text-2xl bg-[#FFDF2C] border-4 rounded-0 animate-pulse border-white rotate[-3deg] shadow px-5 py-3 md:hover:scale-105 md:rotate[-3deg]"
         >
           Chart
         </Link>
